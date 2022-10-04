@@ -14,4 +14,8 @@ use Rack::JSONBodyParser
 # Our application
 run ApplicationController
 
-# use sub-controllers
+# Sub-controllers
+use BooksController
+use FavoritesController
+use ArticlesController
+use UsersController
