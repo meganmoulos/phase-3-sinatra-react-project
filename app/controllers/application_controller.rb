@@ -6,5 +6,9 @@ class ApplicationController < Sinatra::Base
     books.first.to_json
   end
 
+  get "/saved" do
+    saved_articles = SavedArticle.all.select('articles.*').joins(:article)
+    saved_articles.to_json
+  end
 end
 
