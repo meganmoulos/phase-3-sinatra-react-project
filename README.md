@@ -19,10 +19,10 @@ A user is able to:
 
 Backend: Ruby, Active Record, Sinatra
 Frontend: React, TailwindCSS
-API: New York Times Bestsellers (https://developer.nytimes.com/docs/books-product/1/overview)
+API: [New York Times Bestsellers](https://developer.nytimes.com/docs/books-product/1/overview)
 ### How to Install and Run This Project
-Fork and clone the frontend repository here.
-Fork and clone the backend repository here.
+Fork and clone the frontend repository [here](https://github.com/meganmoulos/bookworm).
+Fork and clone the backend repository [here](https://github.com/meganmoulos/phase-3-sinatra-react-project).
 
 In the folder where you have saved the frontend build, `cd` into `phase-3-sinatra-react-project` and `bundle install`. Then run `rake server`. This will start up the server.
 
@@ -32,4 +32,6 @@ In the folder where you have saved the frontend build, `cd` into `bookworm-front
 
 Concept, design, and programming:
 Megan Moulos - Software Engineer
+Github: https://github.com/meganmoulos
+Linkedin: https://www.linkedin.com/in/meganmoulos/
 meganmoulos@gmail.com
