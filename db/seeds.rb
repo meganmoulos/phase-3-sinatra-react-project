@@ -51,5 +51,12 @@ end
         user_id: 1
     )
 end
+
+3.times do 
+    SavedArticle.create(
+        article_id: rand(1..10),
+        user_id: 1
+    )
+end
 puts "✅ Done seeding!"
 
